@@ -6,7 +6,7 @@
       {
         "id": "a2f9bbd8fff4eb87",
         "type": "tabs",
-        "dimension": 83.22147651006712,
+        "dimension": 16.778523489932887,
         "children": [
           {
             "id": "ab7999f6110855e6",
@@ -42,7 +42,7 @@
       {
         "id": "cde731398bba9870",
         "type": "tabs",
-        "dimension": 16.778523489932887,
+        "dimension": 83.22147651006712,
         "children": [
           {
             "id": "12558bcb1bbf72d8",
@@ -53,8 +53,19 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "e7291151a32c94e2",
+            "type": "leaf",
+            "state": {
+              "type": "radial-timeline",
+              "state": {},
+              "icon": "rt-logo",
+              "title": "Untitled Manuscript"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,11 +225,23 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "radial-timeline:Open": false,
+      "radial-timeline:Open inquiry": false
     }
   },
-  "active": "12558bcb1bbf72d8",
+  "active": "e7291151a32c94e2",
   "lastOpenFiles": [
+    "Radial Timeline/Pandoc/rt_modern_classic.tex",
+    "Radial Timeline/Pandoc/rt_contemporary_literary.tex",
+    "Radial Timeline/Pandoc/rt_classic_manuscript.tex",
+    "Radial Timeline/Pandoc/rt_signature_literary.tex",
+    "Radial Timeline/Pandoc/fonts/source-serif-4",
+    "Radial Timeline/Pandoc/fonts/latin-modern",
+    "Radial Timeline/Pandoc/fonts/sorts-mill-goudy",
+    "Radial Timeline/Pandoc/fonts",
+    "Radial Timeline/Pandoc",
+    "Radial Timeline",
     "Messy First Draft.md",
     "Welcome.md"
   ]
