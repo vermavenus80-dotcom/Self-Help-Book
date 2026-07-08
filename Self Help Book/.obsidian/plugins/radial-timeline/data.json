@@ -10,10 +10,28 @@
   "inquirySources": {
     "scanRoots": [],
     "bookInclusion": {},
-    "classScope": [],
-    "classes": [],
+    "classScope": [
+      "/"
+    ],
+    "classes": [
+      {
+        "className": "scene",
+        "enabled": false,
+        "bookScope": "summary",
+        "sagaScope": "excluded",
+        "referenceScope": "excluded"
+      },
+      {
+        "className": "outline",
+        "enabled": false,
+        "bookScope": "full",
+        "sagaScope": "full",
+        "referenceScope": "excluded"
+      }
+    ],
     "classCounts": {},
-    "resolvedScanRoots": []
+    "resolvedScanRoots": [],
+    "lastScanAt": "2026-07-08T18:26:24.636Z"
   },
   "inquiryPromptConfig": {
     "setup": [
@@ -131,7 +149,7 @@
   "povPreviewExpanded": true,
   "enableAiSceneAnalysis": true,
   "showFullTripletAnalysis": true,
-  "enableZeroDraftMode": false,
+  "enableZeroDraftMode": true,
   "synopsisTargetWords": 200,
   "synopsisWeakThreshold": 75,
   "alsoUpdateSynopsis": false,
@@ -454,7 +472,7 @@
   "enableCustomMetadataMapping": false,
   "enableAdvancedYamlEditor": false,
   "sceneAdvancedPropertiesEnabled": true,
-  "enableBeatYamlEditor": false,
+  "enableBeatYamlEditor": true,
   "sceneYamlTemplates": {
     "base": "Class: Scene\nAct: {{Act}}\nWhen: {{When}}\nDuration: 1 hour\nChapter:\nSynopsis:\nSummary:\nPending Edits:\nSubplot: {{Subplot}}\nCharacter: {{Character}}\nPOV:\nWords:\nRuntime:\nPublish Stage: Zero\nStatus: Todo\nDue: {{Due}}\nPulse Update:\nSummary Update:",
     "advanced": "Place:\nQuestions:\nReader Emotion:\nInternal:\nType:\nShift:\nIteration:"
